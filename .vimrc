@@ -45,13 +45,16 @@ set background=dark
 "set incsearch		" Incremental search
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden		" Hide buffers when they are abandoned
-"set mouse=a		" Enable mouse usage (all modes)
+set mouse=a		" Enable mouse usage (all modes)
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+" vimrChampion custom features for C/C++ programming
+
+"idents
 filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -59,4 +62,14 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
+
+"syntax highlight
+syntax on
+"largura do texto
+set textwidth=79
+"no wrap (quebra de linha)
+set nowrap
+"actives 'set number' feature
+set nu
+
 
