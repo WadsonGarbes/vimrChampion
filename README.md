@@ -9,7 +9,7 @@ This pretty simple .vimrc contains the following features:
 - "Autotab" after parenthesis.
 - "set number" always enabled.
 
-##how to use it ?
+## how to use it ?
 
 ```bash
 $ git clone https://github.com/WadsonGarbes/vimrchampion
